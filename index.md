@@ -13,4 +13,4 @@ Results from an industrial case study show that the approach can automatically a
 
 ## Data
 
-The list of VerbNet classes that are likely/unlikely to appear in use case specifications and the list of VerbNet classes whose members can be processed by means of the meta-verb-transformation rule described in the paper are enclosed in a Excel document that can be downloaded from the following URL .
+The list of VerbNet classes that are likely/unlikely to appear in use case specifications and the list of VerbNet classes whose members can be processed by means of the meta-verb-transformation rule described in the paper are enclosed in a Excel document that can be downloaded from the following URL https://github.com/OCLGen/OCLGen.github.io/blob/master/data/OCLGen_AnalysisOfVerbClasses.xlsx.
