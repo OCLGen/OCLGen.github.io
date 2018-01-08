@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# OCLGen
+  
+## Overview of the approach
 
-You can use the [editor on GitHub](https://github.com/OCLGen/OCLGen.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+System testing plays a crucial role in safety-critical domains, e.g., automotive, where system test cases are used to demonstrate the compliance of software with its functional and safety requirements. Unfortunately, since requirements are typically written in natural language, significant engineering effort is required to derive test cases from requirements.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+In such a context, automated support for generating system test cases from requirements specifications written in natural language would be highly beneficial. Unfortunately, existing approaches have limited applicability. For example, some of them require that software engineers provide formal specifications that capture some of the software behavior described using natural language. The effort needed to define such specifications is usually a significant deterrent for software developers.
 
-### Markdown
+OCLgen is an approach which largely automates the generation of the additional formal specifications required by an existing test generation approach named UMTG. More specifically, OCLgen relies on semantic analysis techniques to automatically derive the pre- and post-conditions of the activi- ties described in use case specifications. The generated conditions are used by UMTG to identify the test inputs that cover all the use case scenarios described in use case specifications. In practice, the proposed approach enables the automated generation of test cases from use case specifications while avoiding most of the additional modeling effort required by UMTG.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Results from an industrial case study show that the approach can automatically and correctly generate more than 75% of the pre- and post-conditions characterizing the activities described in use case specifications.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Data
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OCLGen/OCLGen.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The list of VerbNet classes that are likely/unlikely to appear in use case specifications and the list of VerbNet classes whose members can be processed by means of the meta-verb-transformation rule described in the paper are enclosed in a Excel document that can be downloaded from the following URL .
