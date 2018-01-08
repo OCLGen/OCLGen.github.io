@@ -1,5 +1,6 @@
 # OCLGen
-  
+Automatic Generation of OCL Constraints from Use Case Specifications in Natural Language
+
 ## Overview of the approach
 
 System testing plays a crucial role in safety-critical domains, e.g., automotive, where system test cases are used to demonstrate the compliance of software with its functional and safety requirements. Unfortunately, since requirements are typically written in natural language, significant engineering effort is required to derive test cases from requirements.
