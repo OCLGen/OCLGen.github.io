@@ -1,5 +1,5 @@
-# OCLGen
-Automatic Generation of OCL Constraints from Use Case Specifications in Natural Language
+
+```Automatic Generation of OCL Constraints from Use Case Specifications in Natural Language```
 
 ## Overview of the approach
 
