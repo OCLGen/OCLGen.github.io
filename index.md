@@ -15,3 +15,19 @@ Results from an industrial case study show that the approach can automatically a
 ## Data
 
 The list of VerbNet classes that are likely/unlikely to appear in use case specifications and the list of VerbNet classes whose members can be processed by means of the meta-verb-transformation rule described in the paper are enclosed in a Excel document that can be downloaded from the following URL https://github.com/OCLGen/OCLGen.github.io/blob/master/data/OCLGen_AnalysisOfVerbClasses.xlsx.
+
+## Software
+
+You can download the tool from the following URL https://drive.google.com/open?id=13cw3EBIzOjNpRqciQihxEHq2NMHPVNhA
+
+The tool can be run from OsX/Linux. Uncompress the tar.gz archive and cd in the folder OCLGenDistVx.
+To see the brief usage instructions simply type 'bash runOCLGen.sh'.
+Examples:
+bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml "The system sets TemperatureError to detected"
+(the OCL will be printed on screen)
+
+bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml OCLGen/files/DEMO/text.txt dirWithGeneratedOCLs/
+(the generated OCLs will be saved in the folder dirWithGeneratedOCLs)
+
+
+
