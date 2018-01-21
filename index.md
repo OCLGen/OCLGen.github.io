@@ -20,14 +20,20 @@ The list of VerbNet classes that are likely/unlikely to appear in use case speci
 
 You can download the tool from the following URL https://drive.google.com/open?id=13cw3EBIzOjNpRqciQihxEHq2NMHPVNhA
 
-The tool can be run from OsX/Linux. Uncompress the tar.gz archive and cd in the folder OCLGenDistVx.
+The tool can be run from OsX/Linux. To use the tool simply uncompress the tar.gz archive and cd in the folder OCLGenDistVx.
+
+OCLGen receives as input a class diagram saved in UML format and a sentence to translate to an OCL constraint. Alternatively, you can provide a file with a list of sentences (one per new line) and a directory where to save the generated OCLs; in this case the tool will save the generated OCLs one per file in the indicated folder (files are named with a number, corresponding with the line of the provided sentence). 
+
+Currently we support UML files generated with Rational Rhapsody, we will extend the format supported soon.
+
 To see the brief usage instructions simply type 'bash runOCLGen.sh'.
-Examples:
+
+We provide two usage examples in the following lines:
 bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml "The system sets TemperatureError to detected"
 (the OCL will be printed on screen)
 
 bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml OCLGen/files/DEMO/text.txt dirWithGeneratedOCLs/
 (the generated OCLs will be saved in the folder dirWithGeneratedOCLs)
 
-
+We will provide the list of OCLs used to evaluate the tool in the ICST'18 paper soon, after properly renaming concepts and verbs to avoid breaking NDA.
 
