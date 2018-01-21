@@ -22,7 +22,7 @@ You can download the tool from the following URL https://drive.google.com/open?i
 
 The tool can be run from OsX/Linux. To use the tool simply uncompress the tar.gz archive and cd in the folder OCLGenDistVx.
 
-OCLGen receives as input a class diagram saved in UML format and a sentence to translate to an OCL constraint. Alternatively, you can provide a file with a list of sentences (one per new line) and a directory where to save the generated OCLs; in this case the tool will save the generated OCLs one per file in the indicated folder (files are named with a number, corresponding with the line of the provided sentence). 
+OCLGen receives as input a class diagram saved in UML format and a sentence to be translated to an OCL constraint. Alternatively, you can provide a file with a list of sentences (one per new line) and a directory where to save the generated OCLs; in this case the tool will save the generated OCLs one per file in the indicated folder (files are named with a number corresponding with the line of the provided sentence). 
 
 Currently we support UML files generated with Rational Rhapsody, we will extend the format supported soon.
 
