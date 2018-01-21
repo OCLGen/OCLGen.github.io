@@ -35,5 +35,5 @@ bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml "The system sets Te
 bash runOCLGen.sh OCLGen/files/IEE/UMTG-DEMO/DomainModel.uml OCLGen/files/DEMO/text.txt dirWithGeneratedOCLs/
 (the generated OCLs will be saved in the folder dirWithGeneratedOCLs)
 
-We will provide the list of OCLs used to evaluate the tool in the ICST'18 paper soon, after properly renaming concepts and verbs to avoid breaking NDA.
+We will provide the list of OCLs used to evaluate the tool in the ICST'18 paper soon, after properly renaming concepts and verbs to avoid revealing design and implementation details of the system provided by our industrial partner.
 
